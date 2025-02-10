@@ -1,0 +1,4 @@
+Instalar vite=> npm create vite@latest
+Instalar dependencias react npm => npm install
+
+Bibliotexa axios => npm install axios
