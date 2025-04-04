@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import api from '../services/api';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import imgPlaceholder from '../assets/img.png';
+import imgPlaceholder from '../assets/fiat.png';
 
 
 
@@ -36,7 +36,12 @@ function Home() {
 
        <p> {produto.name} </p>
        <p> {produto.quantidade} </p>
-       <p> Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.  </p>
+       <p> FIAT STRADA - 1.3 FIREFLY FLEX FREEDOM CS MANUAL.
+        Ano: 2022/2023
+        KM:43.412
+        Cambio: Manual
+        Carroceiria: Picape
+        Combustivel: Gasolina e álcool  </p>
   </div>
      ))
 

@@ -18,7 +18,7 @@ function Saidas() {
 
     return (
         <div className='container'>
-<h1> Saidas</h1>
+
             <table>
                 
 

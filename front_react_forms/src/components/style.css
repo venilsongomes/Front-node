@@ -2,8 +2,6 @@
 margin: 0;
 padding: 0;
 font-family: 'Poppins', sans-serif;
-font-weight: bold;
-
 
 }
 
@@ -17,7 +15,6 @@ body{
   flex-direction: column;
   padding-top: 50px;
   
- 
 }
 
 form{
@@ -67,8 +64,9 @@ input{
   
   
   & .car{
-  flex: 1 1 calc(25% - 20px); /* Cada item ocupa 25% da largura menos o gap */
+  flex: 1 1 calc(30% - 20px); /* Cada item ocupa 25% da largura menos o gap */
   max-width: calc(25% - 20px); /* Garante que o item não ultrapasse 25% */
+  height:400px;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -139,6 +137,8 @@ table{
   text-align: left;
   padding-top: 5px;
   background-color: white;
+  color: #070707;
+
   
     
   & p{
@@ -151,16 +151,22 @@ table{
   }
   & td{
     text-align: center;
+    border: solid 1px #070707;
+    padding: 10px;
+    font-size: 16px;
+    
+ 
 
   }
   
 }
 
 div h1{
-  color: #F4F4F4;
+  color: #000000;
   font-size: 28px;
   text-align: center;
   margin-top: 40px;
+  padding: 10px 10px 10px 10px;
   
 }
 
@@ -212,6 +218,8 @@ div{
 
 footer{
   text-align: center;
+  padding: 15px 15px 15px 15px;
+  margin-top: 20px;
 
   & h1{
     
@@ -225,6 +233,7 @@ footer{
 
 th h1{
  padding-bottom: 15px;
+
   
   
   
