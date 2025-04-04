@@ -1,7 +1,6 @@
-Instalar vite=> npm create vite@latest
-Instalar dependencias react npm => npm install
-
-Bibliotexa axios => npm install axios
+1 - Instalar vite=> npm create vite@latest
+2 - Instalar dependencias react npm => npm install
+3 - Bibliotexa axios => npm install axios
 
 
 
@@ -9,3 +8,15 @@ Bibliotexa axios => npm install axios
 
 Upadate: <button onClick={ ()=> updateUser(user.id)}>
                     </button>
+
+
+                     {produtos.map((produto) =>
+
+                    <div key={produto.id} className='card'>
+                        <div>
+                            <p> Nome: {produto.name}</p>
+                            <p> Quantidade: {produto.quantidade} </p></div>
+                        <button onClick={() => deleteProduct(produto.id)}> Deletar</button>
+                    </div>
+
+                )}
