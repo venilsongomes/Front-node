@@ -25,3 +25,7 @@ Baixa de Produtos
 
 Saidas
 ![image](https://github.com/user-attachments/assets/d69804ca-4adb-47df-a68f-f05e4390669c)
+
+Pagina não encontrada- 404
+![image](https://github.com/user-attachments/assets/045d4ccf-1f23-484f-b648-3e283f995d5f)
+
