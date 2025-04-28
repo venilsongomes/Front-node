@@ -56,7 +56,7 @@ function CadastroUser() {
 
              <form className="needs-validation" novalidate onSubmit={createUsers}>
 
-                 <h1> Cadastro de Produtos </h1>
+                 <h1> Cadastro de Usuários </h1>
 
 
             <div className="form-row">

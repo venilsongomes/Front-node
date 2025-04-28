@@ -50,11 +50,11 @@ function App() {
 
 
             </BrowserRouter>
-
-            <footer>
+<p className='nav nav-tabs'>  </p>
+            <footer >
 
                 <p> &copy;Desenvolvido Por Venilson Rocha </p>
-                
+
             </footer>
 
         </div>

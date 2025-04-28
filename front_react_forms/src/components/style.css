@@ -5,7 +5,6 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-
 body{
   background: #F4F4F4;
 }
@@ -27,19 +26,9 @@ form{
   max-width: 50%;
   width: 400px;
   margin-bottom: 20px;
+  color: #fff;
 }
-& button{
-border-radius: 30px;
-background-color: #bbbae1;
-height: 40px;
-border: none;
-font-weight: bold;
-cursor: pointer;
-color: #fff;
-}
-& button:hover{
-  opacity: 0.8;
-}
+
 
 
 input{
@@ -64,9 +53,8 @@ input{
   
   
   & .car{
-  flex: 1 1 calc(30% - 20px); /* Cada item ocupa 25% da largura menos o gap */
-  max-width: calc(25% - 20px); /* Garante que o item não ultrapasse 25% */
-  height:400px;
+  flex: 1 1 calc(20% - 20px); /* Cada item ocupa 25% da largura menos o gap */
+  max-width: calc(20% - 20px); /* Garante que o item não ultrapasse 25% */
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -104,16 +92,17 @@ input{
   }
   & button {
     background-color: transparent;
-    border: none;
+    border: solid 1px #000;
     cursor: pointer;
 
   }
   & button:hover{
     opacity: 0.5;
+   
   }
 }
 
-nav{
+ul{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -155,14 +144,12 @@ table{
     padding: 10px;
     font-size: 16px;
     
- 
-
   }
   
 }
 
 div h1{
-  color: #000000;
+  color: ffff;
   font-size: 28px;
   text-align: center;
   margin-top: 40px;
@@ -170,28 +157,10 @@ div h1{
   
 }
 
-
-.baixa{
- 
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  padding-bottom: 5%;
-  height: 100vh;
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; 
-
-}
-
 option{
 
-  color: #ffffff;
-  font-size: 16px;
+  color: #2409be;
+  font-size: 17px;
   padding-left: 10px;
   border-radius: 30%;
   
@@ -231,16 +200,6 @@ footer{
   }
 }
 
-th h1{
- padding-bottom: 15px;
 
-  
-  
-  
-}
 
-img{
-  width: 30px;
-  height: 100px;
-}
 
